@@ -5,7 +5,7 @@ const hostname = window && window.location && window.location.hostname;
 if(hostname === "localhost") {
   backendHost = "http://localhost:8080";
 } else {
-  backendHost = "http://TodoApplication00-backend-dev22.ap-northeast-2.elasticbeanstalk.com";
+  backendHost = "http://dev.xogml0507.p-e.kr";
 }
 
 export const API_BASE_URL = `${backendHost}`;
