@@ -5,7 +5,7 @@ const hostname = window && window.location && window.location.hostname;
 if(hostname === "localhost") {
   backendHost = "http://localhost:8080";
 } else {
-  backendHost = "https://dev.xogml0507.p-e.kr";
+  backendHost = "https:aw//dev.xogml0507.p-e.kr";
 }
 
 export const API_BASE_URL = `${backendHost}`;
