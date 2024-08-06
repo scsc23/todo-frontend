@@ -43,7 +43,7 @@ function App() {
       <Toolbar>
         <Grid justifyContent="space-between" container>
           <Grid item>
-            <Typography variant='h6'>오늘의 할일</Typography>
+            <Typography variant='h6'>오늘의 할일22</Typography>
           </Grid>
           <Grid item>
             <Button color='inherit' raised="true" onClick={signout}>
